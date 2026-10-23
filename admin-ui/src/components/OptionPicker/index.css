@@ -1,0 +1,22 @@
+/*
+ * Option labels can be long (e.g. disambiguation candidates carrying entity
+ * names and IDs). Shoreline buttons are single-line by default (fixed height,
+ * `white-space: nowrap`), so let them grow vertically and wrap instead of
+ * overflowing the chat column.
+ */
+.option-picker-button[data-sl-button] {
+  height: auto;
+  min-height: var(--sl-element-height);
+  max-width: 100%;
+  padding-top: var(--sl-space-2);
+  padding-bottom: var(--sl-space-2);
+}
+
+/* Left-aligned, wrapping option labels instead of Shoreline's centered single line. */
+.option-picker-button[data-sl-button] > [data-sl-button-content] {
+  justify-content: flex-start;
+  text-align: left;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  line-height: var(--sl-line-height-3);
+}

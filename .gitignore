@@ -1,0 +1,14 @@
+node_modules/
+.pnpm-store/
+.next/
+out/
+build/
+coverage/
+.DS_Store
+*.pem
+
+# Secrets and local data
+.env
+.env.*
+!.env.example
+backend/data/

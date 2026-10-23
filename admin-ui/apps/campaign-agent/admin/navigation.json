@@ -1,0 +1,20 @@
+{
+  "section": "promotions",
+  "subSection": "",
+  "titleId": "campaign-agent.navigation.label-group",
+  "adminVersion": 4,
+  "subSectionItems": [
+    {
+      "labelId": "campaign-agent.navigation.label-main",
+      "path": "/admin/campaign-agent",
+      "raccoon": {
+        "devUrl": "http://localhost:3010/app/campaign-agent",
+        "prodUrl": "http://localhost:3010/app/campaign-agent",
+        "routes": [
+          "/admin/campaign-agent",
+          "/admin/campaign-agent/:threadId"
+        ]
+      }
+    }
+  ]
+}

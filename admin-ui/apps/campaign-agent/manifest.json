@@ -1,0 +1,13 @@
+{
+  "name": "campaign-agent",
+  "vendor": "primegoods",
+  "version": "0.1.0",
+  "title": "Campaign Agent",
+  "description": "Create collections, promotions and landing pages from a single sentence",
+  "builders": {
+    "admin": "0.x",
+    "messages": "1.x"
+  },
+  "dependencies": {},
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
